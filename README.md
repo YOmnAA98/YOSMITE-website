@@ -1,7 +1,7 @@
 # YOSMITE-website
 "YOSMITE" is a website for a national park in California.
 
-Technologies used: HTML, CSS, JS
+Technologies used: HTML, CSS, JS.
 
 Website Video: https://drive.google.com/file/d/1nA3Q4P0v0g8ZrInTSjYwVINLVuZkTZRE/view?usp=share_link
 

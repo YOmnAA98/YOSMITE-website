@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1350px;
+  margin: auto;
+  overflow-x: hidden;
+}
+/* the header */
+header {
+  background-color: #1b1b1b;
+  overflow: hidden;
+}
+header #set,
+header nav {
+  float: left;
+}
+header #set {
+  width: 20%;
+}
+header #set img {
+  padding: 30px 0px 0px 50px;
+}
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 30px 15px 0px 35px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #707070;
+}
+header nav ul li #bold {
+  font-weight: bold;
+  letter-spacing: 7px;
+  font-size: 22px;
+  color: #ffffff;
+}
+header #social-media {
+  clear: both;
+}
+header #social-media,
+header #head-pic {
+  float: left;
+}
+header #social-media {
+  width: 10%;
+  margin-top: 220px;
+}
+header #social-media ul li {
+  list-style: none;
+  padding: 30px 0px 0px 50px;
+}
+header #social-media ul li img {
+  border-radius: 50px;
+}
+header #head-pic {
+  margin-top: 30px;
+}
+header #head-pic img {
+  width: 1210px;
+  height: 700px;
+}
+header #head-pic #pic-list {
+  margin-top: -55px;
+  text-align: right;
+}
+header #head-pic #pic-list img {
+  width: 220px;
+  height: 110px;
+  padding: 0px 0px 0px 5px;
+}
+#title {
+  overflow: hidden;
+  display: inline;
+}
+#title h1 {
+  color: #ffffff;
+  letter-spacing: 18px;
+  font-size: 70px;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: -430px;
+}
+#title p {
+  color: #ffffff;
+  margin-top: -25px;
+  text-align: center;
+  margin-left: 100px;
+}
+#title a {
+  text-decoration: none;
+  color: #1b1b1b;
+  background-color: #fab437;
+  padding: 10px;
+  margin: 215px 0px 0px 135px;
+  display: inline-block;
+}
+/* the valley */
+#valley {
+  overflow: hidden;
+  background-color: #1b1b1b;
+  height: 580px;
+}
+#valley .part1,
+#valley .part2 {
+  float: left;
+  margin-top: 150px;
+  width: 50%;
+}
+#valley .part1 {
+  color: #ffffff;
+  font-size: 35px;
+  text-align: right;
+  margin-left: -100px;
+  line-height: 50px;
+}
+#valley .part1 hr {
+  width: 30px;
+  display: inline-block;
+  direction: rtl;
+  margin-top: 10px;
+}
+#valley .part2 {
+  color: #707070;
+  margin-left: 100px;
+  line-height: 25px;
+  font-size: 18px;
+}
+#valley .part2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* the view with waterfalls */
+#view,
+#trip {
+  overflow: hidden;
+}
+#view .part1,
+#view .part2,
+#trip .part1,
+#trip .part2 {
+  float: left;
+  width: 50%;
+}
+#view .part1 img,
+#trip .part1 img {
+  position: absolute;
+  margin-top: -120px;
+  margin-left: 130px;
+}
+#view .part2,
+#trip .part2 {
+  margin-left: 670px;
+  margin-top: 100px;
+}
+#view .part2 h2,
+#waterfalls .part1 h2,
+#trip .part2 h2 {
+  letter-spacing: 10px;
+}
+#view .part2 span,
+#waterfalls .part1 span,
+#trip .part2 span {
+  letter-spacing: 3px;
+  color: #707070;
+}
+#view .part2 p,
+#waterfalls .part1 p,
+#trip .part2 p {
+  color: #707070;
+  line-height: 30px;
+  font-size: 18px;
+}
+#view .part2 a,
+#waterfalls .part1 a,
+#trip .part2 a {
+  text-decoration: none;
+  color: #1b1b1b;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* Giant Sequoias */
+#giant_sequoias {
+  overflow: hidden;
+}
+#giant_sequoias #vedio iframe {
+  margin-top: 200px;
+  margin-left: 75px;
+}
+#giant_sequoias #gs {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: inline-block;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -60px;
+  border-radius: 5px;
+  width: 550px;
+}
+#giant_sequoias #gs span,
+#map #area span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding-left: 40px;
+}
+#giant_sequoias #gs p,
+#map #area p {
+  line-height: 30px;
+  color: #707070;
+  padding: 20px 0px 20px 40px;
+}
+/* The Waterfalls */
+#waterfalls .part1 {
+  margin-top: 250px;
+  margin-left: 130px;
+}
+#waterfalls .part2 {
+  direction: rtl;
+}
+#waterfalls .part2 img {
+  position: absolutes;
+  margin-right: 130px;
+  margin-top: -400px;
+}
+/* The Experience */
+#experience {
+  overflow: hidden;
+  margin-top: -120px;
+}
+#experience #find {
+  text-align: center;
+  height: 1650px;
+  width: 1200px;
+  margin-left: 75px;
+  background-color: #1b1b1b;
+}
+/*  background-image: url("https://www.topozone.com/wp-content/uploads/2017/05/bigs-Half-Dome-Half-Lit-up-with-Evening-Light-Yosemite-Valley-CA-Large-e1494023820610.jpg");*/
+#experience #find h2 {
+  letter-spacing: 8px;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 5px;
+}
+#experience #find #text {
+  color: #ffffff;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+#experience #category img {
+  width: 300px;
+  height: 200px;
+}
+#experience #category {
+  margin-left: 90px;
+}
+#experience #category .cate1,
+#experience #category .cate2,
+#experience #category .cate3 {
+  float: left;
+  margin: 15px 5px 0px 25px;
+  text-align: left;
+}
+#experience #category span {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#experience #category p {
+  color: #707070;
+  font-size: 13px;
+  line-height: 20px;
+}
+#experience #category a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* The Wildlife */
+#wildlife {
+  overflow: hidden;
+}
+#wildlife #wildlife_pic {
+  margin-left: 180px;
+  position: absolute;
+  margin-top: -900px;
+}
+#wildlife #wildlife_text {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: inline-block;
+  position: absolute;
+  border-radius: 5px;
+  width: 550px;
+  margin-left: 570px;
+  margin-top: -450px;
+}
+#wildlife #wildlife_text span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding-left: 40px;
+}
+#wildlife #wildlife_text p {
+  line-height: 30px;
+  color: #707070;
+  padding: 20px 0px 20px 40px;
+}
+/* the stories */
+#story {
+  overflow: hidden;
+  margin-top: 150px;
+}
+#story #stories {
+  text-align: center;
+}
+#story #stories h2 {
+  letter-spacing: 8px;
+  margin-bottom: 7px;
+}
+#story #stories span {
+  letter-spacing: 3px;
+  color: #707070;
+}
+#story .photo {
+  display: none;
+  margin-left: 70px;
+}
+#story .photo img {
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+}
+#story #buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+#story #buttons button {
+  width: 50px;
+}
+/* the map */
+#map #mapp {
+  margin-left: 180px;
+  margin-top: 100px;
+}
+#map #area {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: inline-block;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: -60px;
+  border-radius: 5px;
+  width: 550px;
+}
+/* the footer */
+footer {
+  margin-top: 150px;
+}
+footer #foot {
+  background-color: #1b1b1b;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 1300px;
+  margin-left: 25px;
+}
+footer #foot h3 {
+  letter-spacing: 5px;
+  color: #ffffff;
+  padding: 100px 0px 50px 0px;
+}
+footer #foot ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+footer #foot ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+footer #foot p {
+  color: #707070;
+  padding: 50px 0px;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+footer #foot #media img {
+  border-radius: 50px;
+  margin-bottom: 40px;
+}
+
+/* For tablets: */
+@media only screen and (max-width: 800px) {
+  header,
+  #title,
+  #valley,
+  #view,
+  #giant_sequoias,
+  #waterfalls,
+  #experience,
+  #wildlife,
+  #trip {
+    width: 100%;
+    padding: 0;
+  }
+}
+/* For mobile phones: */
+@media only screen and (max-width: 500px) {
+  header,
+  #title,
+  #valley,
+  #view,
+  #giant_sequoias,
+  #waterfalls,
+  #experience,
+  #wildlife,
+  #trip {
+    width: 100%;
+  }
+}
